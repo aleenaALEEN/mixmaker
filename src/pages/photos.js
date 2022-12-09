@@ -17,7 +17,10 @@ export default class Photos extends React.Component{
             <div className="img-photos">
             <Img data={{CardsData:PhotoImg}}/>
             </div>
-            <Para data={{para:Paragraph.p17}}/>
+            <div style={{color:"white",marginTop:"20px",display:"flex",justifyContent:"center",alignItems:"center",}}>
+            <Para data={{style:{marginRight:"5px"} ,para:Paragraph.p17}}/>
+            <Para data={{para:Paragraph.p19}}/>
+            </div>
           </div>
           </> 
         )

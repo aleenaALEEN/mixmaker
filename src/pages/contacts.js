@@ -42,7 +42,10 @@ export default class Contacts extends React.Component{
                 </div>
             </div>
             <div className="footer">
+              <div style={{display:"flex",flexDirection:"column"}}>
               <Para data={{para:Paragraph.p15}}/>
+              <Para data={{para:Paragraph.p20}}/>
+              </div>
             </div>
           </div>
           </> 

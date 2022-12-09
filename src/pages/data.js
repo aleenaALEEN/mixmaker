@@ -67,7 +67,8 @@ const Paragraph={
     p3:"With 15 years of experience as a musician, his signature style of mixes and mashups is what makes him pump up the crowd with a high demand to crave more!",
     p4:'"I am, you see, I am the creator,',
     p5:"and this is my house!",
-    p6:<p>Find out more on <span className="sp1">Soundcloud</span></p>,
+    p6:"Find out more on",
+    p18:<span className="sp1">Soundcloud</span>,
     p7:'"Who is Jack, and what is it that Jack does?',
     p8:"Jack is the one who gives you the power to",
     p9:"jack your body!”",
@@ -76,9 +77,11 @@ const Paragraph={
     p12:"Email: hello@iamdj.com",
     p13:"Phone: +1 (123) 456 7890",
     p14:"Fax: +1 (123) 456 7891",
-    p15:<p>MixMaker - One Page DJ / Producer Responsive Website Adobe Muse Template by <span className="sp1">Vinyljunkie</span></p>,
+    p15:"MixMaker - One Page DJ / Producer Responsive Website Adobe Muse Template by",
+    p20: <span className="sp1">Vinyljunkie</span>,
     p16:"Subscribe to keep you updated on my upcoming events",
-    p17:<p><span className="sp1">Download</span> press photo pack with hi-res photos.</p>
+    p17:<span className="sp1">Download</span> ,
+    p19: "press photo pack with hi-res photos."
 }
 
 export { NavItems,AboutImg,Head,Paragraph, GigImages,PhotoImg}

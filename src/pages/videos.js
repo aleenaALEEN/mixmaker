@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../components/Heading";
 import { Head,NavItems } from "./data";
-import Card from "../components/Cards";
+import Card from "../components/cards";
 import Navbar from "../components/Navbar";
 
 export default class Videos extends React.Component{

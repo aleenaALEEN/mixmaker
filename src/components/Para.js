@@ -4,7 +4,7 @@ import React from "react";
 export default class Para extends React.Component{
     render(){
         return(
-          <p>{this.props.data.para}</p> 
+          <p style={this.props.data.style}>{this.props.data.para}</p> 
         )
     }
 }

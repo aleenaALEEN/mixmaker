@@ -14,7 +14,10 @@ export default class Mixes extends React.Component{
             <div className="mixes">
                 <Heading data={{heading1:Head.h3}}/>
                 <img src={img}></img>
-                <Para data={{para:Paragraph.p6}}/>    
+                <div style={{display:"flex",marginTop:"20px",justifyContent:"center",alignItems:"center"}}>
+                    <Para data={{para:Paragraph.p6}}/>    
+                    <Para data={{style:{marginLeft:"5px"} ,para:Paragraph.p18}}/>    
+                </div>
             </div>
             <div className="creator">
             <div className="creator-para">
